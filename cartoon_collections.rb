@@ -1,5 +1,5 @@
-def roll_call_dwarves dwarf_name 
-  array.each_with_index do |value, index|
+def roll_call_dwarves dwarf_names 
+  dwarf_names.each_with_index do |value, index|
     puts "#{index + 1} #{value}"
   end 
 end
